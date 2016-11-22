@@ -91,8 +91,8 @@ public:
 class Agent
 {
 public:
-	int i_, j_;
-	double reward_;
+	int i_, j_; // position in grid world
+	double reward_; // reward sum
 
 	Agent()
 		: i_(0), j_(0), reward_(0.0)
